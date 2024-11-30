@@ -1,0 +1,61 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #fef3f3, #f6e8fc);
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  header {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  h1 {
+    color: green;
+  }
+  
+  main {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .canvas {
+    width: 400px;
+    height: 400px;
+    border: 2px solid green;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+  }
+  
+  #text-box {
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  aside {
+    font-size: 16px;
+  }
+  
+  button {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
